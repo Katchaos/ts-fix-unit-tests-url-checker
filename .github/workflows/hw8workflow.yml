@@ -30,4 +30,4 @@ jobs:
 
       # Run tests
       - name: Run tests
-        run: npx jest test/hw8.test.ts
+        run: npx jest tests/hw8.test.ts
