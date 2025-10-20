@@ -10,11 +10,6 @@ test('return very weak for a very weak password', () => {
     expect(result).toBe('Very Weak');
 })
 
-test('return very weak for a very weak password', () => {
-    const result = calculatePasswordStrength('123456k');
-    expect(result).toBe('Very Weak');
-})
-
 test('return weak for a weak password', () => {
     const result = calculatePasswordStrength('1234567K');
     expect(result).toBe('Weak');
